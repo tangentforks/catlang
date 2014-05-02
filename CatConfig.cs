@@ -5,15 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cat
-{
+namespace Cat {
     /// <summary>
     /// The config class contain global switches for controlling the behaviour 
     /// of the interpreter and compiler. This is not actively maintained, and could
     /// easily be out of sync with the rest of the code
     /// </summary>
-    class Config
-    {
+    class Config {
         /// <summary>
         /// Tells us whether this is a release build or not.
         /// </summary>
@@ -120,6 +118,6 @@ namespace Cat
         /// <summary>
         /// Folder for storing data file
         /// </summary>
-        public static string gsDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\cat";
+        public static string gsDataFolder = Environment.GetFolderPath( Environment.SpecialFolder.LocalApplicationData ) + "\\cat";
     }
 }

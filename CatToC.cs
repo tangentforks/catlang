@@ -2,30 +2,24 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cat
-{
-    public class CatToC
-    {
+namespace Cat {
+    public class CatToC {
         StringBuilder sb = new StringBuilder();
 
-        public void Initialize()
-        {
+        public void Initialize() {
             sb = new StringBuilder();
         }
 
 
-        public void Convert(DefinedFunction x)
-        {
+        public void Convert( DefinedFunction x ) {
             // TODO:
         }
 
-        public void Convert(CatExpr x)
-        {
+        public void Convert( CatExpr x ) {
             // TODO:
         }
 
-        public void Convert(PushValueBase x)
-        {
+        public void Convert( PushValueBase x ) {
             // TODO:
         }
     }
